@@ -1,0 +1,23 @@
+{
+  "name": "linkforge-react-frontend",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\" \"*.{js,json,html,md}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,css}\" \"*.{js,json,html,md}\""
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "prettier": "^3.4.2",
+    "vite": "^6.0.5"
+  }
+}

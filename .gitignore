@@ -1,0 +1,29 @@
+@'
+# .NET build output
+**/bin/
+**/obj/
+**/TestResults/
+.vs/
+
+# Node and React
+**/node_modules/
+**/dist/
+npm-debug.log*
+
+# IDE and OS files
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+**/.env
+**/.env.*
+!**/.env.example
+
+# Machine-specific development settings
+**/appsettings.Development.json
+'@ | Set-Content .gitignore

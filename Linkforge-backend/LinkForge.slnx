@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="LinkForge.Api/LinkForge.Api.csproj" />
+  <Project Path="LinkForge.Application/LinkForge.Application.csproj" />
+  <Project Path="LinkForge.Domain/LinkForge.Domain.csproj" />
+  <Project Path="LinkForge.Infrastructure/LinkForge.Infrastructure.csproj" />
+  <Project Path="LinkForge.Tests/LinkForge.Tests.csproj" />
+</Solution>
